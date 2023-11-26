@@ -20,28 +20,10 @@ See also:
 <p>&nbsp;</p>
 
 <p align="center">
-  <a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode" target="_blank">
-    <img src="https://i.imgur.com/IBItATn.png" height="70px">
-  </a>
-</p>
-
-<p>&nbsp;</p>
-
-<p align="center">
   <a href="https://mockend.com/" target="_blank">
     <img src="https://jsonplaceholder.typicode.com/mockend.svg" height="70px">
   </a>
 </p>
-
-<p>&nbsp;</p>
-
-<p align="center">
-  <a href="https://megafamous.com/buy-instagram-followers" target="_blank">
-    <img src="https://jsonplaceholder.typicode.com/megafamous.png" height="70px">
-  </a>
-</p>
-
-<p>&nbsp;</p>
 
 <p>&nbsp;</p>
 
@@ -363,7 +345,7 @@ Create a `routes.json` file. Pay attention to start every route with `/`.
   "/api/*": "/$1",
   "/:resource/:id/show": "/:resource/:id",
   "/posts/:category": "/posts?category=:category",
-  "/articles\\?id=:id": "/posts/:id"
+  "/articles?id=:id": "/posts/:id"
 }
 ```
 
